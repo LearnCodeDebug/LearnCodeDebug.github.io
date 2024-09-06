@@ -16,8 +16,7 @@
         font-weight: $weight;
         font-style: $style;
         background-color: $background-color;
-        text-shadow: 
-            0 0 40px lighten($color, 8%),
+        text-shadow: 0 0 40px lighten($color, 8%),
             0 0 70px lighten($color, 6%);
     }
 }
@@ -101,3 +100,26 @@
 
 /* prettylights-syntax-markup-deleted */
 @include text-neonsign(".hljs-deletion", #ffdcd7, normal, normal, #67060c);
+
+::selection {
+    background-color: transparent;
+}
+
+div,
+pre,
+code {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    animation: myBreath 2s linear infinite;
+}
+
+@keyframes myBreath {
+    0% {
+        transform: translateX(-50%) translateY(-50%) rotate(0deg) translateX(10px) rotate(-0deg);
+    }
+
+    100% {
+        transform: translateX(-50%) translateY(-50%) rotate(360deg) translateX(10px) rotate(-360deg);
+    }
+}

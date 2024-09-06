@@ -799,4 +799,30 @@
   font-style: normal;
   background-color: #67060c;
   text-shadow: 0 0 40px white, 0 0 70px #fff7f6;
+}
+
+::-moz-selection {
+  background-color: transparent;
+}
+
+::selection {
+  background-color: transparent;
+}
+
+div,
+pre,
+code {
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  animation: myBreath 2s linear infinite;
+}
+
+@keyframes myBreath {
+  0% {
+    transform: translateX(-50%) translateY(-50%) rotate(0deg) translateX(10px) rotate(0deg);
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) rotate(360deg) translateX(10px) rotate(-360deg);
+  }
 }/*# sourceMappingURL=github-dark.css.map */

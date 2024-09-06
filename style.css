@@ -7,31 +7,14 @@
   font-display: swap;
 }
 
-#flex-container {
-  display: flex;
-  flex-direction: center;
-  align-items: center;
-  justify-content: center;
-}
-
-#flex-container > .flex-item {
-  flex: auto;
-}
-
-.line-break {
-  width: 100%;
+#a {
+  width: 100;
+  height: 100;
 }
 
 code {
   font-family: "JetBrains Mono";
   outline: none;
-}
-
-.center {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  top: 50%;
 }
 
 .shape {
@@ -45,20 +28,5 @@ code {
 
   to {
     opacity: 1;
-  }
-}
-
-.shape-out {
-  margin: 0 auto;
-  animation: fadeOut 2s linear 0s infinite;
-}
-
-@keyframes fadeOut {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
   }
 }
