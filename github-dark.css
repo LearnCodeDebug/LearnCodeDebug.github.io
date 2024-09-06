@@ -1,117 +1,802 @@
-pre code.hljs {
-  display: block;
-  overflow-x: auto;
-  padding: 1em
-}
-code.hljs {
-  padding: 3px 5px
-}
-/*!
-  Theme: GitHub Dark
-  Description: Dark theme as seen on github.com
-  Author: github.com
-  Maintainer: @Hirse
-  Updated: 2021-05-15
+/*
+    Theme: GitHub Dark
+    Description: Dark theme as seen on github.com
+    Author: github.com
+    Maintainer: @Hirse
+    Updated: 2021-05-15
 
-  Outdated base version: https://github.com/primer/github-syntax-dark
-  Current colors taken from GitHub's CSS
+    Outdated base version: https://github.com/primer/github-syntax-dark
+    Current colors taken from GitHub's CSS
 */
 .hljs {
+  text-decoration: none;
   color: #c9d1d9;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #c6ced7, 0 0 70px #c8d0d8;
 }
-.hljs-doctag,
-.hljs-keyword,
-.hljs-meta .hljs-keyword,
-.hljs-template-tag,
-.hljs-template-variable,
-.hljs-type,
+
+.hljs:hover,
+.hljs:focus {
+  color: #c9d1d9;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #e1e5ea, 0 0 70px #dbe0e6;
+}
+
+/* prettylights-syntax-keyword */
+.hljs-doctag {
+  text-decoration: none;
+  color: #ff7b72;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #ff766d, 0 0 70px #ff796f;
+}
+
+.hljs-doctag:hover,
+.hljs-doctag:focus {
+  color: #ff7b72;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #ffa19b, 0 0 70px #ff9891;
+}
+
+.hljs-keyword {
+  text-decoration: none;
+  color: #ff7b72;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #ff766d, 0 0 70px #ff796f;
+}
+
+.hljs-keyword:hover,
+.hljs-keyword:focus {
+  color: #ff7b72;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #ffa19b, 0 0 70px #ff9891;
+}
+
+.hljs-meta .hljs-keyword {
+  text-decoration: none;
+  color: #ff7b72;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #ff766d, 0 0 70px #ff796f;
+}
+
+.hljs-meta .hljs-keyword:hover,
+.hljs-meta .hljs-keyword:focus {
+  color: #ff7b72;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #ffa19b, 0 0 70px #ff9891;
+}
+
+.hljs-template-tag {
+  text-decoration: none;
+  color: #ff7b72;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #ff766d, 0 0 70px #ff796f;
+}
+
+.hljs-template-tag:hover,
+.hljs-template-tag:focus {
+  color: #ff7b72;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #ffa19b, 0 0 70px #ff9891;
+}
+
+.hljs-template-variable {
+  text-decoration: none;
+  color: #ff7b72;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #ff766d, 0 0 70px #ff796f;
+}
+
+.hljs-template-variable:hover,
+.hljs-template-variable:focus {
+  color: #ff7b72;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #ffa19b, 0 0 70px #ff9891;
+}
+
+.hljs-type {
+  text-decoration: none;
+  color: #ff7b72;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #ff766d, 0 0 70px #ff796f;
+}
+
+.hljs-type:hover,
+.hljs-type:focus {
+  color: #ff7b72;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #ffa19b, 0 0 70px #ff9891;
+}
+
 .hljs-variable.language_ {
-  /* prettylights-syntax-keyword */
-  color: #ff7b72
+  text-decoration: none;
+  color: #ff7b72;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #ff766d, 0 0 70px #ff796f;
 }
-.hljs-title,
-.hljs-title.class_,
-.hljs-title.class_.inherited__,
+
+.hljs-variable.language_:hover,
+.hljs-variable.language_:focus {
+  color: #ff7b72;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #ffa19b, 0 0 70px #ff9891;
+}
+
+/* prettylights-syntax-entity */
+.hljs-title {
+  text-decoration: none;
+  color: #d2a8ff;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #cfa3ff, 0 0 70px #d1a5ff;
+}
+
+.hljs-title:hover,
+.hljs-title:focus {
+  color: #d2a8ff;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #e7d1ff, 0 0 70px #e2c7ff;
+}
+
+.hljs-title.class_ {
+  text-decoration: none;
+  color: #d2a8ff;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #cfa3ff, 0 0 70px #d1a5ff;
+}
+
+.hljs-title.class_:hover,
+.hljs-title.class_:focus {
+  color: #d2a8ff;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #e7d1ff, 0 0 70px #e2c7ff;
+}
+
+.hljs-title.class_.inherited__ {
+  text-decoration: none;
+  color: #d2a8ff;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #cfa3ff, 0 0 70px #d1a5ff;
+}
+
+.hljs-title.class_.inherited__:hover,
+.hljs-title.class_.inherited__:focus {
+  color: #d2a8ff;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #e7d1ff, 0 0 70px #e2c7ff;
+}
+
 .hljs-title.function_ {
-  /* prettylights-syntax-entity */
-  color: #d2a8ff
+  text-decoration: none;
+  color: #d2a8ff;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #cfa3ff, 0 0 70px #d1a5ff;
 }
-.hljs-attr,
-.hljs-attribute,
-.hljs-literal,
-.hljs-meta,
-.hljs-number,
-.hljs-operator,
-.hljs-variable,
-.hljs-selector-attr,
-.hljs-selector-class,
+
+.hljs-title.function_:hover,
+.hljs-title.function_:focus {
+  color: #d2a8ff;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #e7d1ff, 0 0 70px #e2c7ff;
+}
+
+/* prettylights-syntax-constant */
+.hljs-attr {
+  text-decoration: none;
+  color: #79c0ff;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #74beff, 0 0 70px #76bfff;
+}
+
+.hljs-attr:hover,
+.hljs-attr:focus {
+  color: #79c0ff;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #a2d3ff, 0 0 70px #98ceff;
+}
+
+.hljs-attribute {
+  text-decoration: none;
+  color: #79c0ff;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #74beff, 0 0 70px #76bfff;
+}
+
+.hljs-attribute:hover,
+.hljs-attribute:focus {
+  color: #79c0ff;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #a2d3ff, 0 0 70px #98ceff;
+}
+
+.hljs-literal {
+  text-decoration: none;
+  color: #79c0ff;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #74beff, 0 0 70px #76bfff;
+}
+
+.hljs-literal:hover,
+.hljs-literal:focus {
+  color: #79c0ff;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #a2d3ff, 0 0 70px #98ceff;
+}
+
+.hljs-meta {
+  text-decoration: none;
+  color: #79c0ff;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #74beff, 0 0 70px #76bfff;
+}
+
+.hljs-meta:hover,
+.hljs-meta:focus {
+  color: #79c0ff;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #a2d3ff, 0 0 70px #98ceff;
+}
+
+.hljs-number {
+  text-decoration: none;
+  color: #79c0ff;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #74beff, 0 0 70px #76bfff;
+}
+
+.hljs-number:hover,
+.hljs-number:focus {
+  color: #79c0ff;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #a2d3ff, 0 0 70px #98ceff;
+}
+
+.hljs-operator {
+  text-decoration: none;
+  color: #79c0ff;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #74beff, 0 0 70px #76bfff;
+}
+
+.hljs-operator:hover,
+.hljs-operator:focus {
+  color: #79c0ff;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #a2d3ff, 0 0 70px #98ceff;
+}
+
+.hljs-variable {
+  text-decoration: none;
+  color: #79c0ff;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #74beff, 0 0 70px #76bfff;
+}
+
+.hljs-variable:hover,
+.hljs-variable:focus {
+  color: #79c0ff;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #a2d3ff, 0 0 70px #98ceff;
+}
+
+.hljs-selector-attr {
+  text-decoration: none;
+  color: #79c0ff;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #74beff, 0 0 70px #76bfff;
+}
+
+.hljs-selector-attr:hover,
+.hljs-selector-attr:focus {
+  color: #79c0ff;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #a2d3ff, 0 0 70px #98ceff;
+}
+
+.hljs-selector-class {
+  text-decoration: none;
+  color: #79c0ff;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #74beff, 0 0 70px #76bfff;
+}
+
+.hljs-selector-class:hover,
+.hljs-selector-class:focus {
+  color: #79c0ff;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #a2d3ff, 0 0 70px #98ceff;
+}
+
 .hljs-selector-id {
-  /* prettylights-syntax-constant */
-  color: #79c0ff
+  text-decoration: none;
+  color: #79c0ff;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #74beff, 0 0 70px #76bfff;
 }
-.hljs-regexp,
-.hljs-string,
+
+.hljs-selector-id:hover,
+.hljs-selector-id:focus {
+  color: #79c0ff;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #a2d3ff, 0 0 70px #98ceff;
+}
+
+/* prettylights-syntax-string */
+.hljs-regexp {
+  text-decoration: none;
+  color: #a5d6ff;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #a0d4ff, 0 0 70px #a2d5ff;
+}
+
+.hljs-regexp:hover,
+.hljs-regexp:focus {
+  color: #a5d6ff;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #cee9ff, 0 0 70px #c4e4ff;
+}
+
+.hljs-string {
+  text-decoration: none;
+  color: #a5d6ff;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #a0d4ff, 0 0 70px #a2d5ff;
+}
+
+.hljs-string:hover,
+.hljs-string:focus {
+  color: #a5d6ff;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #cee9ff, 0 0 70px #c4e4ff;
+}
+
 .hljs-meta .hljs-string {
-  /* prettylights-syntax-string */
-  color: #a5d6ff
+  text-decoration: none;
+  color: #a5d6ff;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #a0d4ff, 0 0 70px #a2d5ff;
 }
-.hljs-built_in,
+
+.hljs-meta .hljs-string:hover,
+.hljs-meta .hljs-string:focus {
+  color: #a5d6ff;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #cee9ff, 0 0 70px #c4e4ff;
+}
+
+/* prettylights-syntax-variable */
+.hljs-built_in {
+  text-decoration: none;
+  color: #ffa657;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #ffa352, 0 0 70px #ffa554;
+}
+
+.hljs-built_in:hover,
+.hljs-built_in:focus {
+  color: #ffa657;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #ffbc80, 0 0 70px #ffb676;
+}
+
 .hljs-symbol {
-  /* prettylights-syntax-variable */
-  color: #ffa657
+  text-decoration: none;
+  color: #ffa657;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #ffa352, 0 0 70px #ffa554;
 }
-.hljs-comment,
-.hljs-code,
+
+.hljs-symbol:hover,
+.hljs-symbol:focus {
+  color: #ffa657;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #ffbc80, 0 0 70px #ffb676;
+}
+
+/* prettylights-syntax-comment */
+.hljs-comment {
+  text-decoration: none;
+  color: #8b949e;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #88919c, 0 0 70px #8a939d;
+}
+
+.hljs-comment:hover,
+.hljs-comment:focus {
+  color: #8b949e;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #a1a8b1, 0 0 70px #9ca3ac;
+}
+
+.hljs-code {
+  text-decoration: none;
+  color: #8b949e;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #88919c, 0 0 70px #8a939d;
+}
+
+.hljs-code:hover,
+.hljs-code:focus {
+  color: #8b949e;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #a1a8b1, 0 0 70px #9ca3ac;
+}
+
 .hljs-formula {
-  /* prettylights-syntax-comment */
-  color: #8b949e
+  text-decoration: none;
+  color: #8b949e;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #88919c, 0 0 70px #8a939d;
 }
-.hljs-name,
-.hljs-quote,
-.hljs-selector-tag,
+
+.hljs-formula:hover,
+.hljs-formula:focus {
+  color: #8b949e;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #a1a8b1, 0 0 70px #9ca3ac;
+}
+
+/* prettylights-syntax-entity-tag */
+.hljs-name {
+  text-decoration: none;
+  color: #7ee787;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #7ae683, 0 0 70px #7ce785;
+}
+
+.hljs-name:hover,
+.hljs-name:focus {
+  color: #7ee787;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #a0eda7, 0 0 70px #98ec9f;
+}
+
+.hljs-quote {
+  text-decoration: none;
+  color: #7ee787;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #7ae683, 0 0 70px #7ce785;
+}
+
+.hljs-quote:hover,
+.hljs-quote:focus {
+  color: #7ee787;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #a0eda7, 0 0 70px #98ec9f;
+}
+
+.hljs-selector-tag {
+  text-decoration: none;
+  color: #7ee787;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #7ae683, 0 0 70px #7ce785;
+}
+
+.hljs-selector-tag:hover,
+.hljs-selector-tag:focus {
+  color: #7ee787;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #a0eda7, 0 0 70px #98ec9f;
+}
+
 .hljs-selector-pseudo {
-  /* prettylights-syntax-entity-tag */
-  color: #7ee787
+  text-decoration: none;
+  color: #7ee787;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #7ae683, 0 0 70px #7ce785;
 }
+
+.hljs-selector-pseudo:hover,
+.hljs-selector-pseudo:focus {
+  color: #7ee787;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #a0eda7, 0 0 70px #98ec9f;
+}
+
+/* prettylights-syntax-storage-modifier-import */
 .hljs-subst {
-  /* prettylights-syntax-storage-modifier-import */
-  color: #c9d1d9
+  text-decoration: none;
+  color: #c9d1d9;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #c6ced7, 0 0 70px #c8d0d8;
 }
+
+.hljs-subst:hover,
+.hljs-subst:focus {
+  color: #c9d1d9;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #e1e5ea, 0 0 70px #dbe0e6;
+}
+
+/* prettylights-syntax-markup-heading */
 .hljs-section {
-  /* prettylights-syntax-markup-heading */
+  text-decoration: none;
   color: #1f6feb;
-  font-weight: bold
+  font-weight: bold;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #1a6ceb, 0 0 70px #1d6deb;
 }
+
+.hljs-section:hover,
+.hljs-section:focus {
+  color: #1f6feb;
+  font-weight: bold;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #4487ee, 0 0 70px #3b81ee;
+}
+
+/* prettylights-syntax-markup-list */
 .hljs-bullet {
-  /* prettylights-syntax-markup-list */
-  color: #f2cc60
+  text-decoration: none;
+  color: #f2cc60;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #f2ca5b, 0 0 70px #f2cb5e;
 }
+
+.hljs-bullet:hover,
+.hljs-bullet:focus {
+  color: #f2cc60;
+  font-weight: normal;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #f5d886, 0 0 70px #f4d57c;
+}
+
+/* prettylights-syntax-markup-italic */
 .hljs-emphasis {
-  /* prettylights-syntax-markup-italic */
+  text-decoration: none;
   color: #c9d1d9;
-  font-style: italic
+  font-weight: normal;
+  font-style: italic;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #c6ced7, 0 0 70px #c8d0d8;
 }
+
+.hljs-emphasis:hover,
+.hljs-emphasis:focus {
+  color: #c9d1d9;
+  font-weight: normal;
+  font-style: italic;
+  background-color: transparent;
+  text-shadow: 0 0 40px #e1e5ea, 0 0 70px #dbe0e6;
+}
+
+/* prettylights-syntax-markup-bold */
 .hljs-strong {
-  /* prettylights-syntax-markup-bold */
+  text-decoration: none;
   color: #c9d1d9;
-  font-weight: bold
+  font-weight: bold;
+  font-style: normal;
+  background-color: transparent;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #c6ced7, 0 0 70px #c8d0d8;
 }
+
+.hljs-strong:hover,
+.hljs-strong:focus {
+  color: #c9d1d9;
+  font-weight: bold;
+  font-style: normal;
+  background-color: transparent;
+  text-shadow: 0 0 40px #e1e5ea, 0 0 70px #dbe0e6;
+}
+
+/* prettylights-syntax-markup-inserted */
 .hljs-addition {
-  /* prettylights-syntax-markup-inserted */
+  text-decoration: none;
   color: #aff5b4;
-  background-color: #033a16
+  font-weight: normal;
+  font-style: normal;
+  background-color: #033a16;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #aaf4b0, 0 0 70px #adf5b2;
 }
+
+.hljs-addition:hover,
+.hljs-addition:focus {
+  color: #aff5b4;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #033a16;
+  text-shadow: 0 0 40px #d3fad6, 0 0 70px #caf8ce;
+}
+
+/* prettylights-syntax-markup-deleted */
 .hljs-deletion {
-  /* prettylights-syntax-markup-deleted */
+  text-decoration: none;
   color: #ffdcd7;
-  background-color: #67060c
+  font-weight: normal;
+  font-style: normal;
+  background-color: #67060c;
+  transition: all 0.5s;
+  text-shadow: 0 0 40px #ffd8d2, 0 0 70px #ffdad4;
 }
-.hljs-char.escape_,
-.hljs-link,
-.hljs-params,
-.hljs-property,
-.hljs-punctuation,
-.hljs-tag {
-  /* purposely ignored */
-  
-}
+
+.hljs-deletion:hover,
+.hljs-deletion:focus {
+  color: #ffdcd7;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #67060c;
+  text-shadow: 0 0 40px white, 0 0 70px #fff7f6;
+}/*# sourceMappingURL=github-dark.css.map */
