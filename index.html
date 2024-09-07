@@ -32,26 +32,42 @@
             div.className = "shape";
             div.style.fontSize = "2vw";
             div.innerHTML = `
-            <pre><code class=\"language-java\" contenteditable=\"true\" id=\"java\">
-            public final class Main {
-                public static void main(String[] args) {
-                    System.out.println("Hello World!");
-                }
-            }
-            </code></pre>`;
+            <pre><code class=\"language-java\" contenteditable=\"true\" id=\"java\">public final class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+    }
+}</code></pre>`;
             document.body.appendChild(div);
 
-            const example = document.querySelector("code")
-            example.addEventListener("keydown", e => {
-                if (e.keyCode != 186 || example.innerText !== "int i") {
+            const example = document.querySelector("code");
+            example.addEventListener("keydown", (e) => {
+                if (e.key.length === 1 && e.key.match(/\S/)) {
+                    setTimeout(() => {
+                        setTimeout(() => {
+                            example.focus();
+                        }, 0);
+                        example.innerHTML = example.innerText;
+                        delete example.dataset.highlighted;
+                        hljs.highlightElement(example);
+
+                        var range = document.createRange();
+                        range.selectNodeContents(example);
+                        range.collapse(false);
+                        var sel = window.getSelection();
+                        sel.removeAllRanges();
+                        sel.addRange(range);
+                    }, 50);
+                } else if (e.key === "Tab") {
+                    // TODO: 
+                    // Fix Tab To 4 Space
+                    // I don't know how to do this
+                    // **Cry
                     e.preventDefault();
-                } else {
-                    hljs.highlightAll();
                 }
             });
 
             hljs.highlightAll();
-        }, 5000);
+        }, 50);
     </script>
 </body>
 

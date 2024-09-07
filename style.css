@@ -7,11 +7,6 @@
   font-display: swap;
 }
 
-#a {
-  width: 100;
-  height: 100;
-}
-
 code {
   font-family: "JetBrains Mono";
   outline: none;
@@ -28,5 +23,30 @@ code {
 
   to {
     opacity: 1;
+  }
+}
+
+::selection {
+  background-color: transparent;
+}
+
+div,
+pre,
+code {
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  caret-color: whitesmoke;
+  transform: translateX(-50%) translateY(-50%);
+/*   animation: myBreath 2s linear infinite; */
+}
+
+@keyframes myBreath {
+  0% {
+      transform: translateX(-50%) translateY(-50%) rotate(0deg) translateX(6px) rotate(-0deg);
+  }
+
+  100% {
+      transform: translateX(-50%) translateY(-50%) rotate(360deg) translateX(6px) rotate(-360deg);
   }
 }

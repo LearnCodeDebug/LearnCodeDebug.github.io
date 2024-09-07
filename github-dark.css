@@ -15,7 +15,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #c6ced7, 0 0 70px #c8d0d8;
+  text-shadow: 0 0 5px #c6ced7, 0 0 10px #c8d0d8;
 }
 
 .hljs:hover,
@@ -24,7 +24,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #e1e5ea, 0 0 70px #dbe0e6;
+  text-shadow: 0 0 5px #e7ebee, 0 0 10px #e1e5ea;
 }
 
 /* prettylights-syntax-keyword */
@@ -35,7 +35,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #ff766d, 0 0 70px #ff796f;
+  text-shadow: 0 0 5px #ff766d, 0 0 10px #ff796f;
 }
 
 .hljs-doctag:hover,
@@ -44,7 +44,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #ffa19b, 0 0 70px #ff9891;
+  text-shadow: 0 0 5px #ffaba5, 0 0 10px #ffa19b;
 }
 
 .hljs-keyword {
@@ -54,7 +54,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #ff766d, 0 0 70px #ff796f;
+  text-shadow: 0 0 5px #ff766d, 0 0 10px #ff796f;
 }
 
 .hljs-keyword:hover,
@@ -63,7 +63,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #ffa19b, 0 0 70px #ff9891;
+  text-shadow: 0 0 5px #ffaba5, 0 0 10px #ffa19b;
 }
 
 .hljs-meta .hljs-keyword {
@@ -73,7 +73,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #ff766d, 0 0 70px #ff796f;
+  text-shadow: 0 0 5px #ff766d, 0 0 10px #ff796f;
 }
 
 .hljs-meta .hljs-keyword:hover,
@@ -82,7 +82,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #ffa19b, 0 0 70px #ff9891;
+  text-shadow: 0 0 5px #ffaba5, 0 0 10px #ffa19b;
 }
 
 .hljs-template-tag {
@@ -92,7 +92,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #ff766d, 0 0 70px #ff796f;
+  text-shadow: 0 0 5px #ff766d, 0 0 10px #ff796f;
 }
 
 .hljs-template-tag:hover,
@@ -101,7 +101,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #ffa19b, 0 0 70px #ff9891;
+  text-shadow: 0 0 5px #ffaba5, 0 0 10px #ffa19b;
 }
 
 .hljs-template-variable {
@@ -111,7 +111,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #ff766d, 0 0 70px #ff796f;
+  text-shadow: 0 0 5px #ff766d, 0 0 10px #ff796f;
 }
 
 .hljs-template-variable:hover,
@@ -120,7 +120,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #ffa19b, 0 0 70px #ff9891;
+  text-shadow: 0 0 5px #ffaba5, 0 0 10px #ffa19b;
 }
 
 .hljs-type {
@@ -130,7 +130,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #ff766d, 0 0 70px #ff796f;
+  text-shadow: 0 0 5px #ff766d, 0 0 10px #ff796f;
 }
 
 .hljs-type:hover,
@@ -139,7 +139,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #ffa19b, 0 0 70px #ff9891;
+  text-shadow: 0 0 5px #ffaba5, 0 0 10px #ffa19b;
 }
 
 .hljs-variable.language_ {
@@ -149,7 +149,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #ff766d, 0 0 70px #ff796f;
+  text-shadow: 0 0 5px #ff766d, 0 0 10px #ff796f;
 }
 
 .hljs-variable.language_:hover,
@@ -158,7 +158,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #ffa19b, 0 0 70px #ff9891;
+  text-shadow: 0 0 5px #ffaba5, 0 0 10px #ffa19b;
 }
 
 /* prettylights-syntax-entity */
@@ -169,7 +169,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #cfa3ff, 0 0 70px #d1a5ff;
+  text-shadow: 0 0 5px #cfa3ff, 0 0 10px #d1a5ff;
 }
 
 .hljs-title:hover,
@@ -178,7 +178,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #e7d1ff, 0 0 70px #e2c7ff;
+  text-shadow: 0 0 5px #ecdbff, 0 0 10px #e7d1ff;
 }
 
 .hljs-title.class_ {
@@ -188,7 +188,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #cfa3ff, 0 0 70px #d1a5ff;
+  text-shadow: 0 0 5px #cfa3ff, 0 0 10px #d1a5ff;
 }
 
 .hljs-title.class_:hover,
@@ -197,7 +197,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #e7d1ff, 0 0 70px #e2c7ff;
+  text-shadow: 0 0 5px #ecdbff, 0 0 10px #e7d1ff;
 }
 
 .hljs-title.class_.inherited__ {
@@ -207,7 +207,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #cfa3ff, 0 0 70px #d1a5ff;
+  text-shadow: 0 0 5px #cfa3ff, 0 0 10px #d1a5ff;
 }
 
 .hljs-title.class_.inherited__:hover,
@@ -216,7 +216,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #e7d1ff, 0 0 70px #e2c7ff;
+  text-shadow: 0 0 5px #ecdbff, 0 0 10px #e7d1ff;
 }
 
 .hljs-title.function_ {
@@ -226,7 +226,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #cfa3ff, 0 0 70px #d1a5ff;
+  text-shadow: 0 0 5px #cfa3ff, 0 0 10px #d1a5ff;
 }
 
 .hljs-title.function_:hover,
@@ -235,7 +235,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #e7d1ff, 0 0 70px #e2c7ff;
+  text-shadow: 0 0 5px #ecdbff, 0 0 10px #e7d1ff;
 }
 
 /* prettylights-syntax-constant */
@@ -246,7 +246,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #74beff, 0 0 70px #76bfff;
+  text-shadow: 0 0 5px #74beff, 0 0 10px #76bfff;
 }
 
 .hljs-attr:hover,
@@ -255,7 +255,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #a2d3ff, 0 0 70px #98ceff;
+  text-shadow: 0 0 5px #acd8ff, 0 0 10px #a2d3ff;
 }
 
 .hljs-attribute {
@@ -265,7 +265,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #74beff, 0 0 70px #76bfff;
+  text-shadow: 0 0 5px #74beff, 0 0 10px #76bfff;
 }
 
 .hljs-attribute:hover,
@@ -274,7 +274,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #a2d3ff, 0 0 70px #98ceff;
+  text-shadow: 0 0 5px #acd8ff, 0 0 10px #a2d3ff;
 }
 
 .hljs-literal {
@@ -284,7 +284,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #74beff, 0 0 70px #76bfff;
+  text-shadow: 0 0 5px #74beff, 0 0 10px #76bfff;
 }
 
 .hljs-literal:hover,
@@ -293,7 +293,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #a2d3ff, 0 0 70px #98ceff;
+  text-shadow: 0 0 5px #acd8ff, 0 0 10px #a2d3ff;
 }
 
 .hljs-meta {
@@ -303,7 +303,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #74beff, 0 0 70px #76bfff;
+  text-shadow: 0 0 5px #74beff, 0 0 10px #76bfff;
 }
 
 .hljs-meta:hover,
@@ -312,7 +312,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #a2d3ff, 0 0 70px #98ceff;
+  text-shadow: 0 0 5px #acd8ff, 0 0 10px #a2d3ff;
 }
 
 .hljs-number {
@@ -322,7 +322,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #74beff, 0 0 70px #76bfff;
+  text-shadow: 0 0 5px #74beff, 0 0 10px #76bfff;
 }
 
 .hljs-number:hover,
@@ -331,7 +331,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #a2d3ff, 0 0 70px #98ceff;
+  text-shadow: 0 0 5px #acd8ff, 0 0 10px #a2d3ff;
 }
 
 .hljs-operator {
@@ -341,7 +341,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #74beff, 0 0 70px #76bfff;
+  text-shadow: 0 0 5px #74beff, 0 0 10px #76bfff;
 }
 
 .hljs-operator:hover,
@@ -350,7 +350,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #a2d3ff, 0 0 70px #98ceff;
+  text-shadow: 0 0 5px #acd8ff, 0 0 10px #a2d3ff;
 }
 
 .hljs-variable {
@@ -360,7 +360,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #74beff, 0 0 70px #76bfff;
+  text-shadow: 0 0 5px #74beff, 0 0 10px #76bfff;
 }
 
 .hljs-variable:hover,
@@ -369,7 +369,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #a2d3ff, 0 0 70px #98ceff;
+  text-shadow: 0 0 5px #acd8ff, 0 0 10px #a2d3ff;
 }
 
 .hljs-selector-attr {
@@ -379,7 +379,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #74beff, 0 0 70px #76bfff;
+  text-shadow: 0 0 5px #74beff, 0 0 10px #76bfff;
 }
 
 .hljs-selector-attr:hover,
@@ -388,7 +388,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #a2d3ff, 0 0 70px #98ceff;
+  text-shadow: 0 0 5px #acd8ff, 0 0 10px #a2d3ff;
 }
 
 .hljs-selector-class {
@@ -398,7 +398,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #74beff, 0 0 70px #76bfff;
+  text-shadow: 0 0 5px #74beff, 0 0 10px #76bfff;
 }
 
 .hljs-selector-class:hover,
@@ -407,7 +407,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #a2d3ff, 0 0 70px #98ceff;
+  text-shadow: 0 0 5px #acd8ff, 0 0 10px #a2d3ff;
 }
 
 .hljs-selector-id {
@@ -417,7 +417,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #74beff, 0 0 70px #76bfff;
+  text-shadow: 0 0 5px #74beff, 0 0 10px #76bfff;
 }
 
 .hljs-selector-id:hover,
@@ -426,7 +426,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #a2d3ff, 0 0 70px #98ceff;
+  text-shadow: 0 0 5px #acd8ff, 0 0 10px #a2d3ff;
 }
 
 /* prettylights-syntax-string */
@@ -437,7 +437,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #a0d4ff, 0 0 70px #a2d5ff;
+  text-shadow: 0 0 5px #a0d4ff, 0 0 10px #a2d5ff;
 }
 
 .hljs-regexp:hover,
@@ -446,7 +446,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #cee9ff, 0 0 70px #c4e4ff;
+  text-shadow: 0 0 5px #d8edff, 0 0 10px #cee9ff;
 }
 
 .hljs-string {
@@ -456,7 +456,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #a0d4ff, 0 0 70px #a2d5ff;
+  text-shadow: 0 0 5px #a0d4ff, 0 0 10px #a2d5ff;
 }
 
 .hljs-string:hover,
@@ -465,7 +465,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #cee9ff, 0 0 70px #c4e4ff;
+  text-shadow: 0 0 5px #d8edff, 0 0 10px #cee9ff;
 }
 
 .hljs-meta .hljs-string {
@@ -475,7 +475,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #a0d4ff, 0 0 70px #a2d5ff;
+  text-shadow: 0 0 5px #a0d4ff, 0 0 10px #a2d5ff;
 }
 
 .hljs-meta .hljs-string:hover,
@@ -484,7 +484,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #cee9ff, 0 0 70px #c4e4ff;
+  text-shadow: 0 0 5px #d8edff, 0 0 10px #cee9ff;
 }
 
 /* prettylights-syntax-variable */
@@ -495,7 +495,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #ffa352, 0 0 70px #ffa554;
+  text-shadow: 0 0 5px #ffa352, 0 0 10px #ffa554;
 }
 
 .hljs-built_in:hover,
@@ -504,7 +504,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #ffbc80, 0 0 70px #ffb676;
+  text-shadow: 0 0 5px #ffc18a, 0 0 10px #ffbc80;
 }
 
 .hljs-symbol {
@@ -514,7 +514,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #ffa352, 0 0 70px #ffa554;
+  text-shadow: 0 0 5px #ffa352, 0 0 10px #ffa554;
 }
 
 .hljs-symbol:hover,
@@ -523,7 +523,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #ffbc80, 0 0 70px #ffb676;
+  text-shadow: 0 0 5px #ffc18a, 0 0 10px #ffbc80;
 }
 
 /* prettylights-syntax-comment */
@@ -534,7 +534,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #88919c, 0 0 70px #8a939d;
+  text-shadow: 0 0 5px #88919c, 0 0 10px #8a939d;
 }
 
 .hljs-comment:hover,
@@ -543,7 +543,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #a1a8b1, 0 0 70px #9ca3ac;
+  text-shadow: 0 0 5px #a7aeb5, 0 0 10px #a1a8b1;
 }
 
 .hljs-code {
@@ -553,7 +553,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #88919c, 0 0 70px #8a939d;
+  text-shadow: 0 0 5px #88919c, 0 0 10px #8a939d;
 }
 
 .hljs-code:hover,
@@ -562,7 +562,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #a1a8b1, 0 0 70px #9ca3ac;
+  text-shadow: 0 0 5px #a7aeb5, 0 0 10px #a1a8b1;
 }
 
 .hljs-formula {
@@ -572,7 +572,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #88919c, 0 0 70px #8a939d;
+  text-shadow: 0 0 5px #88919c, 0 0 10px #8a939d;
 }
 
 .hljs-formula:hover,
@@ -581,7 +581,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #a1a8b1, 0 0 70px #9ca3ac;
+  text-shadow: 0 0 5px #a7aeb5, 0 0 10px #a1a8b1;
 }
 
 /* prettylights-syntax-entity-tag */
@@ -592,7 +592,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #7ae683, 0 0 70px #7ce785;
+  text-shadow: 0 0 5px #7ae683, 0 0 10px #7ce785;
 }
 
 .hljs-name:hover,
@@ -601,7 +601,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #a0eda7, 0 0 70px #98ec9f;
+  text-shadow: 0 0 5px #a9efaf, 0 0 10px #a0eda7;
 }
 
 .hljs-quote {
@@ -611,7 +611,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #7ae683, 0 0 70px #7ce785;
+  text-shadow: 0 0 5px #7ae683, 0 0 10px #7ce785;
 }
 
 .hljs-quote:hover,
@@ -620,7 +620,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #a0eda7, 0 0 70px #98ec9f;
+  text-shadow: 0 0 5px #a9efaf, 0 0 10px #a0eda7;
 }
 
 .hljs-selector-tag {
@@ -630,7 +630,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #7ae683, 0 0 70px #7ce785;
+  text-shadow: 0 0 5px #7ae683, 0 0 10px #7ce785;
 }
 
 .hljs-selector-tag:hover,
@@ -639,7 +639,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #a0eda7, 0 0 70px #98ec9f;
+  text-shadow: 0 0 5px #a9efaf, 0 0 10px #a0eda7;
 }
 
 .hljs-selector-pseudo {
@@ -649,7 +649,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #7ae683, 0 0 70px #7ce785;
+  text-shadow: 0 0 5px #7ae683, 0 0 10px #7ce785;
 }
 
 .hljs-selector-pseudo:hover,
@@ -658,7 +658,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #a0eda7, 0 0 70px #98ec9f;
+  text-shadow: 0 0 5px #a9efaf, 0 0 10px #a0eda7;
 }
 
 /* prettylights-syntax-storage-modifier-import */
@@ -669,7 +669,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #c6ced7, 0 0 70px #c8d0d8;
+  text-shadow: 0 0 5px #c6ced7, 0 0 10px #c8d0d8;
 }
 
 .hljs-subst:hover,
@@ -678,7 +678,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #e1e5ea, 0 0 70px #dbe0e6;
+  text-shadow: 0 0 5px #e7ebee, 0 0 10px #e1e5ea;
 }
 
 /* prettylights-syntax-markup-heading */
@@ -689,7 +689,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #1a6ceb, 0 0 70px #1d6deb;
+  text-shadow: 0 0 5px #1a6ceb, 0 0 10px #1d6deb;
 }
 
 .hljs-section:hover,
@@ -698,7 +698,7 @@
   font-weight: bold;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #4487ee, 0 0 70px #3b81ee;
+  text-shadow: 0 0 5px #4e8def, 0 0 10px #4487ee;
 }
 
 /* prettylights-syntax-markup-list */
@@ -709,7 +709,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #f2ca5b, 0 0 70px #f2cb5e;
+  text-shadow: 0 0 5px #f2ca5b, 0 0 10px #f2cb5e;
 }
 
 .hljs-bullet:hover,
@@ -718,7 +718,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #f5d886, 0 0 70px #f4d57c;
+  text-shadow: 0 0 5px #f6db8f, 0 0 10px #f5d886;
 }
 
 /* prettylights-syntax-markup-italic */
@@ -729,7 +729,7 @@
   font-style: italic;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #c6ced7, 0 0 70px #c8d0d8;
+  text-shadow: 0 0 5px #c6ced7, 0 0 10px #c8d0d8;
 }
 
 .hljs-emphasis:hover,
@@ -738,7 +738,7 @@
   font-weight: normal;
   font-style: italic;
   background-color: transparent;
-  text-shadow: 0 0 40px #e1e5ea, 0 0 70px #dbe0e6;
+  text-shadow: 0 0 5px #e7ebee, 0 0 10px #e1e5ea;
 }
 
 /* prettylights-syntax-markup-bold */
@@ -749,7 +749,7 @@
   font-style: normal;
   background-color: transparent;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #c6ced7, 0 0 70px #c8d0d8;
+  text-shadow: 0 0 5px #c6ced7, 0 0 10px #c8d0d8;
 }
 
 .hljs-strong:hover,
@@ -758,7 +758,7 @@
   font-weight: bold;
   font-style: normal;
   background-color: transparent;
-  text-shadow: 0 0 40px #e1e5ea, 0 0 70px #dbe0e6;
+  text-shadow: 0 0 5px #e7ebee, 0 0 10px #e1e5ea;
 }
 
 /* prettylights-syntax-markup-inserted */
@@ -769,7 +769,7 @@
   font-style: normal;
   background-color: #033a16;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #aaf4b0, 0 0 70px #adf5b2;
+  text-shadow: 0 0 5px #aaf4b0, 0 0 10px #adf5b2;
 }
 
 .hljs-addition:hover,
@@ -778,7 +778,7 @@
   font-weight: normal;
   font-style: normal;
   background-color: #033a16;
-  text-shadow: 0 0 40px #d3fad6, 0 0 70px #caf8ce;
+  text-shadow: 0 0 5px #dcfbdf, 0 0 10px #d3fad6;
 }
 
 /* prettylights-syntax-markup-deleted */
@@ -789,7 +789,7 @@
   font-style: normal;
   background-color: #67060c;
   transition: all 0.5s;
-  text-shadow: 0 0 40px #ffd8d2, 0 0 70px #ffdad4;
+  text-shadow: 0 0 5px #ffd8d2, 0 0 10px #ffdad4;
 }
 
 .hljs-deletion:hover,
@@ -798,31 +798,5 @@
   font-weight: normal;
   font-style: normal;
   background-color: #67060c;
-  text-shadow: 0 0 40px white, 0 0 70px #fff7f6;
-}
-
-::-moz-selection {
-  background-color: transparent;
-}
-
-::selection {
-  background-color: transparent;
-}
-
-div,
-pre,
-code {
-  left: 50%;
-  top: 50%;
-  position: absolute;
-  animation: myBreath 2s linear infinite;
-}
-
-@keyframes myBreath {
-  0% {
-    transform: translateX(-50%) translateY(-50%) rotate(0deg) translateX(10px) rotate(0deg);
-  }
-  100% {
-    transform: translateX(-50%) translateY(-50%) rotate(360deg) translateX(10px) rotate(-360deg);
-  }
+  text-shadow: 0 0 5px white, 0 0 10px white;
 }/*# sourceMappingURL=github-dark.css.map */
