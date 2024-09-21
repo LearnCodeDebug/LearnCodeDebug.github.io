@@ -1,0 +1,27 @@
+keyword {
+    color: #ff7b72;
+    text-shadow: 0 0 5px rgba(255, 123, 114, 0.99),
+        0 0 10px rgba(255, 123, 114, 0.95);
+}
+
+word {
+    color: #c9d1d9;
+    text-shadow: 0 0 5px rgba(201, 209, 217, 0.99),
+        0 0 10px rgba(201, 209, 217, 0.95);
+}
+
+name {
+    color: #d2a8ff;
+    text-shadow: 0 0 5px rgba(210, 168, 255, 0.99),
+        0 0 10px rgba(210, 168, 255, 0.95);
+}
+
+string {
+    color: rgb(165, 214, 255);
+    text-shadow: 0 0 5px rgba(165, 214, 255, 0.99),
+        0 0 10px rgba(165, 214, 255, 0.95);
+}
+
+tab::before {
+    content: '\00a0\00a0';
+}

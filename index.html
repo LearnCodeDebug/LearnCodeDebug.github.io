@@ -10,111 +10,34 @@
     <meta property="og:title" content="Learn Code: Master Programming with Ease">
     <meta property="og:description"
         content="Learn Code: Discover, learn, and master coding skills with engaging tutorials and practical exercises. Your journey to coding excellence starts here.">
-    <!--     <link rel="stylesheet" href="./github-dark.css"> -->
-    <!--     <link rel="stylesheet" href="./style.css"> -->
-    <!--     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/highlight.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/languages/java.min.js"></script>
-    <script>hljs.highlightAll();</script> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hightlight.css">
+    <script src="script.js"></script>
 </head>
 
-<body style="background-color:#0D1117"><!-- 
-    <div class="shape" style="font-size: 3vw;">
-        <pre><code class="language-java">在Java語言當中，";"等價為句號</code></pre>
+<!-- code換行會被當成空格，&emsp為Tab (4 Space) -->
+<!-- 為了不要被識別為空格，會放在同一行 -->
+
+<body style="background-color:#0D1117">
+    <div class="center" style="font-size: 8vw;">
+        <say>Welcome!</say>
     </div>
-
     <script>
-        setTimeout(() => {
-            document.body.innerHTML = "";
-
-            var div = document.createElement("div");
-            div.className = "shape";
-            div.style.fontSize = "5vw";
-            div.innerHTML = `<pre><code class="language-java">Hello!</code></pre>`;
-            document.body.appendChild(div);
-
-            hljs.highlightAll();
-        }, 5000);
-    </script>
-    <script>
-        setTimeout(() => {
-            document.body.innerHTML = "";
-
-            var div = document.createElement("div");
-            div.className = "shape";
-            div.style.fontSize = "2vw";
-            div.innerHTML = `
-            <pre><code class=\"language-java\" contenteditable=\"true\" id=\"java\">public final class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
-}</code></pre>`;
-            document.body.appendChild(div);
-
-            const example = document.querySelector("code");
-            example.addEventListener("keydown", (e) => {
-                if (e.key.length === 1 && e.key.match(/\S/)) {
-                    setTimeout(() => {
-                        setTimeout(() => {
-                            example.focus();
-                        }, 0);
-                        example.innerHTML = example.innerText;
-                        delete example.dataset.highlighted;
-                        hljs.highlightElement(example);
-
-                        var range = document.createRange();
-                        range.selectNodeContents(example);
-                        range.collapse(false);
-                        var sel = window.getSelection();
-                        sel.removeAllRanges();
-                        sel.addRange(range);
-                    }, 50);
-                } else if (e.key === "Tab") {
-                    // TODO: 
-                    // Fix Tab To 4 Space
-                    // I don't know how to do this
-                    // **Cry
-                    e.preventDefault();
-                }
-            });
-
-            hljs.highlightAll();
-        }, 10000);
-    </script> -->
-    <h2>Monaco Editor Sample</h2>
-    <div id="container" style="width: 800px; height: 600px; border: 1px solid grey"></div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.51.0/min/vs/loader.js"></script>
-    <script>
-        require.config({
-            paths: {
-                vs: 'https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.51.0/min/vs/',
-            },
-        });
-        window.MonacoEnvironment = {
-            getWorkerUrl: function (workerId, label) {
-                return `data:text/javascript;charset=utf-8,${encodeURIComponent(`
-                self.MonacoEnvironment = {
-                  baseUrl: 'https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.51.0/min/'
-                };
-                importScripts('https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.51.0/min/vs/base/worker/workerMain.js');`)}`;
-            },
-        };
-        require(['vs/editor/editor.main'], function () {
-            var editor = monaco.editor.create(document.getElementById('container'), {
-                lineNumbers: 'Off',
-                minimap: { enabled: false },
-                scrollbar: {
-                    vertical: 'auto',
-                    horizontal: 'auto'
-                },
-                readOnly: false,
-                wordWrap: "off",
-                automaticLayout: true,
-                theme: "vs-dark",
-                folding: false,
-                value: ['public final class Main {', '\tpublic static void main(String[] args) {', '\t\tSystem.out.println("Hello World!")', "\t}", "}"].join('\n'),
-                language: 'java'
-            });
-        });
+        rep(Object.assign(document.createElement("div"), {
+            className: "center", style: "font-size: 9vw;", innerHTML: "<say>Now You Can Say Hello World!</say>"
+        }), 3);
+        rep(Object.assign(document.createElement("code"), {
+            className: "center", style: "font-size: 3vw;", innerHTML: `
+            <keyword>public final class<word> Main {</word></keyword>
+            <br>
+            <tab><keyword>public static void<name> main<word>(String[] args) {</name></word></keyword></tab>
+            <br>
+            <tab><tab><word>System.out.println(<string>"Hello World!"<word>);</word></string></word></tab></tab>
+            <br>
+            <tab><word>}</word></tab>
+            <br>
+            <word>}</word>`
+        }), 6);
     </script>
 </body>
 

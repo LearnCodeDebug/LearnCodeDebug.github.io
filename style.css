@@ -9,11 +9,31 @@
 
 code {
   font-family: "JetBrains Mono";
-  outline: none;
+
+  /* 淡入*/
+  animation: fade 2s linear 0s 1;
 }
 
-.shape {
+say {
+  white-space: normal;
+  color: #c9d1d9;
+  text-shadow: 0 0 5px rgba(201, 209, 217, 0.99),
+    0 0 10px rgba(201, 209, 217, 0.95);
+  font-family: "JetBrains Mono";
+
+  /* 淡入*/
   animation: fade 2s linear 0s 1;
+}
+
+.center {
+  /* 置中 */
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+
+  /* 防止元素被壓縮 */
+  white-space: nowrap;
 }
 
 @keyframes fade {
@@ -23,30 +43,5 @@ code {
 
   to {
     opacity: 1;
-  }
-}
-
-::selection {
-  background-color: transparent;
-}
-
-div,
-pre,
-code {
-  left: 50%;
-  top: 50%;
-  position: absolute;
-  caret-color: whitesmoke;
-  transform: translateX(-50%) translateY(-50%);
-/*   animation: myBreath 2s linear infinite; */
-}
-
-@keyframes myBreath {
-  0% {
-      transform: translateX(-50%) translateY(-50%) rotate(0deg) translateX(6px) rotate(-0deg);
-  }
-
-  100% {
-      transform: translateX(-50%) translateY(-50%) rotate(360deg) translateX(6px) rotate(-360deg);
   }
 }
