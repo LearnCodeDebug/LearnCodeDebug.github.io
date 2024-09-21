@@ -16,13 +16,26 @@ code {
 
 say {
   white-space: normal;
-  color: #c9d1d9;
-  text-shadow: 0 0 5px rgba(201, 209, 217, 0.99),
-    0 0 10px rgba(201, 209, 217, 0.95);
+  margin-left: 10rpx;
+  font-size: 30rpx;
+  background-image: -webkit-linear-gradient(45deg, #00a0e9, #10d39d, #00a0e9, #10d39d);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-size: 200% 100%;
   font-family: "JetBrains Mono";
 
   /* 淡入*/
-  animation: fade 2s linear 0s 1;
+  animation: fade 2s linear 0s 1, masked-animation 4s linear infinite;
+}
+
+@keyframes masked-animation {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: -100% 0;
+  }
 }
 
 .center {
