@@ -1,25 +1,43 @@
 keyword {
-    color: #ff7b72;
-    text-shadow: 0 0 5px rgba(255, 123, 114, 0.99),
-        0 0 10px rgba(255, 123, 114, 0.95);
+    color: rgb(255, 62, 62);
+    text-shadow: 0 0 5px rgba(255, 62, 62, 0.99),
+        0 0 10px rgba(255, 62, 62, 0.95);
 }
 
 word {
-    color: #c9d1d9;
+    color: rgb(201, 209, 217);
     text-shadow: 0 0 5px rgba(201, 209, 217, 0.99),
         0 0 10px rgba(201, 209, 217, 0.95);
 }
 
 name {
-    color: #d2a8ff;
-    text-shadow: 0 0 5px rgba(210, 168, 255, 0.99),
-        0 0 10px rgba(210, 168, 255, 0.95);
+    color: rgb(255, 196, 85);
+    text-shadow: 0 0 5px rgba(255, 196, 85, 0.99),
+        0 0 10px rgba(255, 196, 85, 0.95);
 }
 
 string {
-    color: rgb(165, 214, 255);
-    text-shadow: 0 0 5px rgba(165, 214, 255, 0.99),
-        0 0 10px rgba(165, 214, 255, 0.95);
+    color: rgb(101, 156, 87);
+    text-shadow: 0 0 5px rgba(101, 156, 87, 0.99),
+        0 0 10px rgba(101, 156, 87, 0.95);
+}
+
+num {
+    color: rgb(104, 151, 187);
+    text-shadow: 0 0 5px rgba(104, 151, 187, 0.99),
+        0 0 10px rgba(104, 151, 187, 0.95);
+}
+
+semicolon {
+    color: rgb(248, 199, 6);
+    text-shadow: 0 0 5px rgba(248, 199, 6, 0.99),
+        0 0 10px rgba(248, 199, 6, 0.95);
+}
+
+field {
+    color: rgb(184, 144, 204);
+    text-shadow: 0 0 5px rgba(184, 144, 204, 0.99),
+        0 0 10px rgba(184, 144, 204, 0.95);
 }
 
 tab::before {
